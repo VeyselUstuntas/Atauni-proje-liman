@@ -1,7 +1,7 @@
 # AtaUni-Proje
 Atatürk Üniversitesi Açık Kaynak Yazılım Geliştirme Dersi Projesi | Liman MYS Kurulum Betiği
 
-## Bu proje kapsamında HAVELSAN Liman Merkezi Yönetim Sistemi(MYS) kurulumu gerçekleştirilmiştir.
+### Bu proje kapsamında HAVELSAN Liman Merkezi Yönetim Sistemi(MYS) kurulumu gerçekleştirilmiştir.
 
 #### Çalıştırma
 ```bash
@@ -25,7 +25,7 @@ Atatürk Üniversitesi Açık Kaynak Yazılım Geliştirme Dersi Projesi | Liman
   ./script.sh administrator
 ```
 
-#### Admin Şifre Sıfırmalama
+#### Admin Şifre Sıfırlama
 ```bash
   ./script.sh reset
 ```
@@ -35,7 +35,7 @@ Atatürk Üniversitesi Açık Kaynak Yazılım Geliştirme Dersi Projesi | Liman
   ./script.sh help
 ```
 
-### Log Kayıtlarını Görüntüleme
+#### Log Kayıtlarını Görüntüleme
 ```bash
   cat ./log_file.txt
 ```
