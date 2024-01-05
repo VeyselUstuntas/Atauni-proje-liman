@@ -17,13 +17,12 @@ log() {
 
 echo "$islem"
 
-log "Script başlatıldı - İşlem: $islem"
-
 
 if [ $# -eq 1 ]
 then
 	islem=$1
-	
+	log "Script başlatıldı - İşlem: $islem"	
+
 	if [ "$islem" == "kur" ]
 	then
 	    log "Paket Kurulum İşlemi Başlatılıyor"
