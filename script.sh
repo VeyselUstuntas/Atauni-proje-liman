@@ -25,8 +25,7 @@ then
 
 	if [ "$islem" == "kur" ]
 	then
-	    log "Paket Kurulum İşlemi Başlatılıyor"
-
+	    	log "Paket Kurulum İşlemi Başlatılıyor"
 		NODE_MAJOR=18
 
 		sudo apt update
@@ -128,8 +127,8 @@ then
 			log "Admin Şifresi Oluşturuldu"
 		else
 			printf "\n"
-        	echo "Admin Şifresi OLUŞTURULAMADI!"
-        	printf "\n"
+        		echo "Admin Şifresi OLUŞTURULAMADI!"
+        		printf "\n"
 			log "Admin Şifresi OLUŞTURULAMADI!"
 		fi
 
@@ -174,7 +173,7 @@ then
 	fi
 elif [ $# -lt 1 ]
 then
-    log "Parametre eksik. Lütfen geçerli bir işlem belirtin."
+    	log "Parametre eksik. Lütfen geçerli bir işlem belirtin."
 	printf "\n"
 	echo "LÜTFEN YAPACAĞINIZ İŞLEMİ PARAMETRE VEREREK BELİRTİNİZ"
 	printf "\n"
